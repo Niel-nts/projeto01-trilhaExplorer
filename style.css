@@ -1,0 +1,64 @@
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-opensans: 'Open Sans', sans-serif;
+  --cor-laranja: #ff9900;
+  --cor-paragrafo: #7D7987;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: var(--font-inter); 
+  font-size: 49px; 
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+body {
+  font-family: var(--font-opensans);
+  text-align: center;  
+}
+
+p, #footer {
+  size: 14px;
+  line-height: 28px;
+  color: var(--cor-paragrafo);
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+span, a {
+  color: var(--cor-laranja);
+}
+
+#line {
+  width: 586px;
+  height: 0px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+
+#footer a + a{
+  margin-left: 28px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
